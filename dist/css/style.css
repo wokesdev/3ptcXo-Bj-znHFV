@@ -2089,7 +2089,7 @@ ol {
     content: '';
     height: 30px;
     width: 150px;
-    background: url('../img/logo-text.png') no-repeat;
+    background: url('https://cdn.jsdelivr.net/gh/wokesdev/3ptcXo-Bj-znHFV@242f2cac066d036bbdd298570b44a62b20ac4d1a/dist/img/logo-text.png') no-repeat;
     background-size: 150px auto, auto;
     opacity: 20%;
 }
