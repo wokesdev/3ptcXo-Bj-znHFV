@@ -4256,7 +4256,7 @@ border-color: #E53637 !important;
 .setting-button:hover,
 .profile-button:hover,
 .login-button:hover {
-    color: red;
+    color: red!important;
 }
 
 /* Popover CSS
