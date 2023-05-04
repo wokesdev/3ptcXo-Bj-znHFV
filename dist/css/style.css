@@ -2908,6 +2908,10 @@ ol {
     content: "";
 }
 
+.login__form form .input__item__v3:before {
+    display: none;
+}
+
 .login__form form .input__item input {
     height: 50px;
     width: 100%;
@@ -3437,6 +3441,19 @@ ol {
 
 .request__notes__for__users a:hover {
     color: #ffffff;
+}
+
+.request__notes__for__users .flash {
+    font-size: 13px;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    right: 0px;
+    top: -7px;
+}
+
+.request__notes__for__users .flash:hover {
+    color: #E53637;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
