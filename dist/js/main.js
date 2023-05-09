@@ -26,18 +26,18 @@
             $(this).addClass('active');
         });
 
-        var tds = document.getElementsByTagName('crate');
-        window.firstNum = 1;
-        for(var x = 0; x < tds.length; x++) {
-            tds[x].onclick = function () {
-                if (window.firstNum % 2 == 1) {
-                    $('#arc-widget-launcher-iframe').hide();
-                } else {
-                    $('#arc-widget-launcher-iframe').show();
-                }
-                window.firstNum = window.firstNum + 1;
-            };
-        }
+        // var tds = document.getElementsByTagName('crate');
+        // window.firstNum = 1;
+        // for(var x = 0; x < tds.length; x++) {
+        //     tds[x].onclick = function () {
+        //         if (window.firstNum % 2 == 1) {
+        //             $('#arc-widget-launcher-iframe').hide();
+        //         } else {
+        //             $('#arc-widget-launcher-iframe').show();
+        //         }
+        //         window.firstNum = window.firstNum + 1;
+        //     };
+        // }
     });
 
     /*------------------
